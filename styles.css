@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0px;
+    background-color: #8623f7;
+}
+
+#sofiBtn {
+    padding: 10px;
+    border-radius: 10%;
+    background-color: #858284;
+    color: #fff;
+    border-color: aqua;
+}
+
+header {
+    background-color: #da5eb6;
+    color: #000000;
+    text-align: center;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#pokemon {
+    font-size: small;
+}
+    
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: #da5eb6;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

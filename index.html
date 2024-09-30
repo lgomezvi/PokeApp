@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sofia's Web Development Adventure</title>
+    <!-- <link rel="stylesheet" href="styles.css" /> -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body id="body">
+    <header id="header">
+      <h1>Welcome to Sofia's Cosmic Web Journey</h1>
+      <nav class="navbar">
+        <ul>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#nasa">NASA APOD</a></li>
+          <li><a href="#pokemon">Pokémon Gallery</a></li>
+          <li><a href="#blog">Blog</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="text-center">
+      <button id="sofiBtn" type="button">Click Me to change body!</button>
+      <section id="about">
+        <h2>About Me</h2>
+        <p>
+          Hi, I'm Sofia! Join me on my adventure through the digital cosmos.
+        </p>
+
+        <div>
+          <select name="color" id="color">
+            <option value="red">red</option>
+            <option value="blue">blue</option>
+            <option value="green">green</option>
+            <option value="yellow">yellow</option>
+            <option value="purple">purple</option>
+          </select>
+        </div>
+      </section>
+
+      <!-- <section id="nasa">
+        <h2 class="text-2xl text-pink-400">
+          NASA Astronomy Picture of the Day
+        </h2>
+        <div id="apod-container">
+          <img src="" alt="" id="nasaPic" />
+        </div>
+      </section> -->
+
+      <!-- ######## POKEMON SECTION ######## -->
+      <section class="" id="pokemon">
+        <h2 class="text-3xl text-pink-400 p-4">Pokémon Gallery</h2>
+        <div id="pokemon-container" class="grid grid-cols-1 md:grid-cols-3">
+  
+        </div>
+      </section>
+
+      <section id="blog">
+        <h2>Blog</h2>
+        <div id="blog-container">
+          <!-- Blog posts will be inserted here -->
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2023 Sofia's Web Development Adventure. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
